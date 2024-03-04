@@ -3,6 +3,7 @@ import Paragraph from "./components/Paragraph";
 import BlockLine from "./components/BlockLine";
 import CollapseBlock from "./components/CollapseBlock";
 import Picture from "./components/Picture";
+import Columns from "./components/Columns";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         Вот такой тут внутри интереснейший контент.
       </CollapseBlock>
       <Picture float="left"></Picture>
+      <Columns cols={[<div key="1">Первая колонка</div>, <div key="2">Вторая колонка</div>]} />
     </div>
   );
 }
