@@ -22,7 +22,5 @@
     //"noUnusedLocals": true,
     "noUnusedParameters": true,
   },
-  "include": ["src", "tests", "typings.d.ts",
-    ".storybook-"
-  ],
+  "include": ["src", "tests", "typings.d.ts", ".storybook-"],
 }

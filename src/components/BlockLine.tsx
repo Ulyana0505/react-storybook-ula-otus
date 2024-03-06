@@ -1,3 +1,7 @@
 export default function BlockLine() {
-  return <div><hr /></div>;
+  return (
+    <div>
+      <hr />
+    </div>
+  );
 }

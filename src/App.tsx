@@ -17,7 +17,12 @@ export default function App() {
         Вот такой тут внутри интереснейший контент.
       </CollapseBlock>
       <Picture float="left"></Picture>
-      <Columns cols={[<div key="1">Первая колонка</div>, <div key="2">Вторая колонка</div>]} />
+      <Columns
+        cols={[
+          <div key="1">Первая колонка</div>,
+          <div key="2">Вторая колонка</div>,
+        ]}
+      />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import type { StorybookConfig } from "@storybook/react-webpack5";
-import 'loki/configure-react-native';
+import "loki/configure-react-native";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
@@ -11,11 +11,11 @@ const config: StorybookConfig = {
   ],
   framework: {
     name: "@storybook/react-webpack5",
-    options:{}
+    options: {},
     //options: {
-      //builder: {
-      //  useSWC: true,
-      //},
+    //builder: {
+    //  useSWC: true,
+    //},
     //},
   },
   docs: {
